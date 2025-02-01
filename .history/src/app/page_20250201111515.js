@@ -35,6 +35,12 @@ export default function LandingPage() {
               Services
             </Link>
             <Link
+              href="/items"
+              className="hover:text-[#C5A572] transition-colors"
+            >
+              Items
+            </Link>
+            <Link
               href="/login"
               className="hover:text-[#C5A572] transition-colors"
             >

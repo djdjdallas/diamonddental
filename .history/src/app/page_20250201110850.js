@@ -17,7 +17,7 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex-1">
             <Image
-              src="/logo.png"
+              src="/hero.png"
               alt="Diamond Smile Logo"
               width={150}
               height={50}
@@ -35,6 +35,12 @@ export default function LandingPage() {
               Services
             </Link>
             <Link
+              href="/items"
+              className="hover:text-[#C5A572] transition-colors"
+            >
+              Items
+            </Link>
+            <Link
               href="/login"
               className="hover:text-[#C5A572] transition-colors"
             >
@@ -49,12 +55,12 @@ export default function LandingPage() {
         className="min-h-screen relative flex items-center justify-center"
         style={{
           backgroundImage:
-            "linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/hero.png)",
+            "linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/dental-bg.jpg)",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       >
-        <div className="absolute inset-0 bg-black/30" />
+        <div className="absolute inset-0 bg-black/50" />
 
         <div className="relative z-10 text-center space-y-8 max-w-4xl mx-auto px-4">
           <h2 className="text-2xl font-light">Be part of the</h2>
